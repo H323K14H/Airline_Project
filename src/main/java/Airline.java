@@ -22,6 +22,21 @@ public class Airline {
         return this.flights.size();
     }
 
+    public String displayFlights() {
+    String flightsToPrint = "";
+
+         for (Flight flight : this.flights){
+             System.out.println(flight.getFlightID());
+             System.out.println(flight.getDestination());
+
+            flightsToPrint += flight.getFlightID();
+            flightsToPrint += flight.getDestination();
+
+        }
+        return flightsToPrint;
+
+    }
+
     public void addPassenger(String name, String contactInformation, int uniqueID) {
     }
 
