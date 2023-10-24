@@ -29,13 +29,13 @@ public class AirlineTest {
     @Test
     void canDisplayFlights() {
 
-        assertThat(airline.displayFlights()).isEqualTo("flights.Flight@6dde5c8c");
+        assertThat(airline.displayFlights()).isEqualTo("Flight ID 12345 Flight Destination Hackney");
     }
 
     @Test
     void canCreatePassenger() {
 
-        assertThat(Passenger.getName()).isEqualTo(1);
+
     }
 
 

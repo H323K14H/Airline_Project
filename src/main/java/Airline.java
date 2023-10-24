@@ -29,8 +29,9 @@ public class Airline {
              System.out.println(flight.getFlightID());
              System.out.println(flight.getDestination());
 
-            flightsToPrint += flight.getFlightID();
-            flightsToPrint += flight.getDestination();
+            flightsToPrint += "Flight ID " + flight.getFlightID() +" ";
+
+            flightsToPrint += "Flight Destination " + flight.getDestination();
 
         }
         return flightsToPrint;
