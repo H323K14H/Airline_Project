@@ -1,3 +1,7 @@
+package flights;
+
+import passengers.Passenger;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 

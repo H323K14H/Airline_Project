@@ -1,15 +1,8 @@
 import java.util.ArrayList;
 
 public class Runner {
-    private ArrayList<Flight> flights;
+    public static void main(String[] args) {
 
-
-
-//    public void createFlight(int flightID, String destination){
-//
-//    }
-//
-//    public void createPassenger(String name, String contactInformation, int uniqueID)
-
+    }
 
 }
