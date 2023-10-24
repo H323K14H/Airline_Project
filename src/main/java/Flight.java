@@ -1,16 +1,17 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Flight {
 
     private int flightID;
 
     private String destination;
-//    private ArrayList<Passenger> passengers;
+    private HashMap<Integer, Passenger> passengers;
 
     public Flight(int flightID, String destination){
         this.flightID = flightID;
         this.destination = destination;
-//        this.passengers = new ArrayList<>();
+        this.passengers = new HashMap<>();
     }
 
     public int getFlightID() {
@@ -29,8 +30,8 @@ public class Flight {
         this.destination = destination;
     }
 
-//    public ArrayList<Passenger> getPassengers() {
-//        return passengers.size();
-//    }
+    public int getPassengers() {
+        return passengers.size();
+    }
 
 }
